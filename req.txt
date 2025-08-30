@@ -1,0 +1,3 @@
+# Version 21+ don't depricated some stuff and did not works
+pyarrow == 20.0
+setuptools
