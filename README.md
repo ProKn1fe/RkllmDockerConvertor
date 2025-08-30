@@ -20,13 +20,16 @@ docker run -i --volume D:\Test\:/home/model -e MODEL_URL=https://huggingface.co/
 
 Note that you need mount `/home/model` to any folder outside container which will contain cloned model repository and converter model.
 
-Awailable parameters for container:
+Available parameters for container:
 ```
 MODEL_URL - repository url
 DTYPE - float32, float16, bfloat16
 PLATFORM - rk3588
 OPTIMIZATION_LEVEL - 1
-QUANTIZED_DTYPE - w8a8/w8a8_gx/w4a16/w4a16_gx
+QUANTIZED_DTYPE - w8a8, w8a8_gx, w4a16, w4a16_gx
 QUANTIZED_ALGORITHM - normal, grq
 NPU_CORES_COUNT - 3
 ```
+
+More information on those parameters:
+*) https://github.com/airockchip/rknn-llm/blob/main/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/export/export_rkllm.py#L17
