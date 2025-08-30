@@ -32,4 +32,4 @@ NPU_CORES_COUNT - 3
 ```
 
 More information on those parameters:
-*) https://github.com/airockchip/rknn-llm/blob/main/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/export/export_rkllm.py#L17
+* https://github.com/airockchip/rknn-llm/blob/main/examples/DeepSeek-R1-Distill-Qwen-1.5B_Demo/export/export_rkllm.py#L17
